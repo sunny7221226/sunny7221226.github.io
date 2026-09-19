@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter Two - The daunting evail</title>
+    <title>Chapter Six - The daunting evail</title>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;600&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -134,12 +134,6 @@
             margin: 2rem auto;
         }
 
-        .chapter-image {
-            width: 60%;  /* percentage of container */
-            /* or */
-            width: 500px;  /* fixed pixels */
-            height: auto;  /* keeps proportions */
-        }
         .reading-content {
             background: rgba(255, 255, 255, 0.6);
             padding: 4rem;
@@ -149,16 +143,6 @@
             margin-bottom: 3rem;
             opacity: 0;
             animation: fadeInUp 1s ease-out 0.6s forwards;
-        }
-
-        .first-letter {
-            float: left;
-            font-family: 'Cormorant Garamond', serif;
-            font-size: 5rem;
-            line-height: 0.8;
-            margin: 0.1em 0.1em 0 0;
-            color: var(--accent);
-            font-weight: 400;
         }
 
         .reading-content p {
@@ -171,18 +155,6 @@
 
         .reading-content p:first-of-type {
             text-indent: 0;
-        }
-
-        .reading-content p:last-child {
-            margin-bottom: 0;
-        }
-
-        .scene-break {
-            text-align: center;
-            margin: 3rem 0;
-            color: var(--accent);
-            font-size: 1.5rem;
-            letter-spacing: 1em;
         }
 
         .chapter-nav {
@@ -219,10 +191,6 @@
             cursor: not-allowed;
         }
 
-        .nav-button.disabled:hover {
-            transform: none;
-        }
-
         footer {
             text-align: center;
             padding: 3rem 0;
@@ -232,13 +200,28 @@
             margin-top: 4rem;
         }
 
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .social-links a {
+            color: var(--muted);
+            text-decoration: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--accent);
+        }
+
         @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
 
         @keyframes fadeInUp {
@@ -253,12 +236,8 @@
         }
 
         @keyframes slideDown {
-            from {
-                transform: translateY(-100%);
-            }
-            to {
-                transform: translateY(0);
-            }
+            from { transform: translateY(-100%); }
+            to { transform: translateY(0); }
         }
 
         @media (max-width: 768px) {
@@ -279,10 +258,6 @@
                 text-align: left;
             }
 
-            .first-letter {
-                font-size: 4rem;
-            }
-
             .chapter-nav {
                 flex-direction: column;
                 gap: 1rem;
@@ -298,33 +273,173 @@
 <body>
     <div class="grain"></div>
     <div class="progress-bar" id="progressBar"></div>
-    
+
     <nav class="nav-header">
         <div class="nav-content">
             <a href="index.html" class="back-link">Back to Home</a>
             <div style="font-family: 'Cormorant Garamond', serif; color: var(--muted); font-size: 0.9rem;">
-                Chapter 5
+                Chapter 6
             </div>
         </div>
     </nav>
 
     <div class="container">
         <header class="chapter-header">
-            <div class="chapter-number">Chapter Five</div>
-            <h1 class="chapter-title">Back to struggling</h1>
+            <div class="chapter-number">Chapter Six</div>
+            <h1 class="chapter-title">A room that felt wrong</h1>
             <div class="chapter-divider"></div>
         </header>
 
         <article class="reading-content">
             <p>
-                <span class="first-letter">S</span>
+                When Susan removed the carpet, Ryane mentioned that there might be nails underneath, perhaps even extra nails from earlier work.
+            </p>
+            <p>
+                She barely paid attention.
+            </p>
+            <p>
+                The wooden floor looked ordinary to her. She inspected it carefully, running her eyes over the boards and the seams, but found nothing that explained the cut in the carpet or the strange feeling that had gradually attached itself to that part of the room.
+            </p>
+            <p>
+                Nothing.
+            </p>
+            <p>
+                That was almost worse.
+            </p>
+            <p>
+                During the week she worked on the flooring, another small thing happened.
+            </p>
+            <p>
+                Someone had used the bathroom and left without flushing.
+            </p>
+            <p>
+                Susan noticed it when she went in early one morning. She stood there for a moment, looking at it, trying to remember who had been in the house the night before.
+            </p>
+            <p>
+                She couldn't.
+            </p>
+            <p>
+                It was such an insignificant thing that she felt almost foolish for remembering it.
+            </p>
+            <p>
+                But by then, insignificant things had stopped feeling insignificant.
+            </p>
+            <p>
+                The new floor eventually went down.
+            </p>
+            <p>
+                She worked around her full-time job, doing what she could in the evenings and whenever she had a few uninterrupted hours. When it was finally finished, the room looked cleaner and more complete. The old carpet was gone. The floor was new. The vent remained exactly where it had always been.
+            </p>
+            <p>
+                For convenience while installing the floor, Susan had removed the doors from the built-in cabinets. She intended to put them back once everything was finished, but other things kept taking priority.
+            </p>
+            <p>
+                Then, one day, her younger daughter suddenly complained that her abdomen hurt.
+            </p>
+            <p>
+                There was no obvious reason.
+            </p>
+            <p>
+                Susan immediately became attentive.
+            </p>
+            <p>
+                She asked questions. She watched her daughter carefully. The pain seemed to come and go, and there was nothing else she could identify that explained it.
+            </p>
+            <p>
+                But another thought entered her mind.
+            </p>
+            <p>
+                She hated herself for thinking it.
+            </p>
+            <p>
+                She could not prove anything. There was no specific sign, no memory, no event she could point to. Yet after everything that had happened—or everything she believed might have happened—she could no longer treat her daughter's safety as something she could simply assume.
+            </p>
+            <p>
+                The thought stayed with her long after her daughter's pain passed.
+            </p>
+            <p>
+                That evening, Susan put the cabinet doors back.
+            </p>
+            <p>
+                She knew the doors were not a real security system. They were only doors. But having the cabinets closed again made the room feel slightly less exposed.
+            </p>
+            <p>
+                It was a small action.
+            </p>
+            <p>
+                Still, she needed small actions.
+            </p>
+            <p>
+                As time passed, her efforts became increasingly deliberate.
+            </p>
+            <p>
+                She installed a hinge hasp and secured it with bolts and nuts. She checked the bedroom lock before going to bed. She checked the windows. She looked at the vent. She paid attention to sounds in the hallway and to movements inside the house that she would once have ignored.
+            </p>
+            <p>
+                Each addition gave her a brief sense of control.
+            </p>
+            <p>
+                Then the doubt returned.
+            </p>
+            <p>
+                Was it enough?
+            </p>
+            <p>
+                She never knew.
+            </p>
+            <p>
+                The locks could tell her whether a door had been opened. They could not tell her what had happened on the other side.
+            </p>
+            <p>
+                The new floor could remove the old carpet. It could not remove the questions attached to it.
+            </p>
+            <p>
+                And the more Susan tried to make the room secure, the more clearly she understood something she had resisted for a long time:
+            </p>
+            <p>
+                She was no longer trying simply to make her home comfortable.
+            </p>
+            <p>
+                She was trying to make it safe.
+            </p>
+            <p>
+                As time passed, her efforts became increasingly deliberate.
+            </p>
+            <p>
+                She installed a hinge hasp on every door she could secure, fastening each one with bolts and nuts. She did the same with the cabinet doors, adding hasps wherever she felt an opening might matter. Before going to bed, she checked the bedroom lock, the hasps, and the windows. She looked at the vent. She paid attention to sounds in the hallway and to movements inside the house that she would once have ignored.
+            </p>
+            <p>
+                Each addition gave her a brief sense of control.
+            </p>
+            <p>
+                Then the doubt returned.
+            </p>
+            <p>
+                Was it enough?
+            </p>
+            <p>
+                She never knew.
+            </p>
+            <p>
+                The locks and hasps could tell her whether a door or cabinet had been opened. They could not tell her what had happened on the other side.
+            </p>
+            <p>
+                The new floor could remove the old carpet. It could not remove the questions attached to it.
+            </p>
+            <p>
+                And the more Susan tried to make the room secure, the more clearly she understood something she had resisted for a long time:
+            </p>
+            <p>
+                She was no longer trying simply to make her home comfortable.
+            </p>
+            <p>
+                She was trying to make it safe.
             </p>
         </article>
 
         <nav class="chapter-nav">
-            <a href="index.html" class="nav-button">← Back to Home</a>
-            <a href="chapter_four.html" class="nav-button">← Previous Chapter</a>
-            <a href="chapter_six.html" class="nav-button">Next Chapter →</a>
+            <a href="chapter_five.html" class="nav-button">← Previous Chapter</a>
+            <a href="#" class="nav-button disabled">Next Chapter →</a>
         </nav>
 
         <footer>
@@ -338,27 +453,13 @@
     </div>
 
     <script>
-        // Reading progress indicator
         window.addEventListener('scroll', () => {
             const windowHeight = window.innerHeight;
             const documentHeight = document.documentElement.scrollHeight;
             const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
             const scrollPercent = (scrollTop / (documentHeight - windowHeight)) * 100;
-            
-            document.getElementById('progressBar').style.width = scrollPercent + '%';
-        });
 
-        // Smooth scroll behavior
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                }
-            });
+            document.getElementById('progressBar').style.width = scrollPercent + '%';
         });
     </script>
 </body>
